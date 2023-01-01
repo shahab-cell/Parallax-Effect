@@ -1,0 +1,86 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+/* .pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+
+.pimg1 {
+  background: url("../images/pexels-nout-gons-378570.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pimg2 {
+  background: url("../images/pexels-rovenimagescom-949587.jpg");
+  min-height: 400px;
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pimg3 {
+  background: url("../images/pexels-lukas-kloeppel-466685.jpg");
+  min-height: 400px;
+  position: relative;
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e32;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ptext .border {
+  background: #111;
+  padding: 20px;
+  color: #fff;
+}
